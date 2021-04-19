@@ -12,10 +12,11 @@ jobs:
                     npm install -g npm@latest > /dev/null 2<&1
                     npm config -g delete ca
                     $sudo npm install -g newman
+                    npm i --package-lock-only
                     npm audit fix
 #                    sudo apt update
 #                    sudo apt upgrade -y                    
-#                    npm i --package-lock-only
+
                     
       - checkout
       
