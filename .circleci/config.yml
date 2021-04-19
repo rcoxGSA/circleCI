@@ -11,7 +11,8 @@ jobs:
                     $sudo npm install -g npm@latest > /dev/null 2>&1 || \
                     npm install -g npm@latest > /dev/null 2<&1
                     npm config -g delete ca
-                    $SUDO npm install -g newman
+                    sudo npm install -g newman
+                    npm audit fix
 #                    sudo apt update
 #                    sudo apt upgrade -y                    
 #                    npm i --package-lock-only
