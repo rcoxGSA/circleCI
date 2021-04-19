@@ -11,7 +11,7 @@ jobs:
                     $sudo npm install -g npm@latest > /dev/null 2>&1 || \
                     npm install -g npm@latest > /dev/null 2<&1
                     sudo apt update
-                    sudo apt upgrade
+#                    sudo apt upgrade
 #                    npm config -g delete ca
 #                    $SUDO npm install -g newman
                     
