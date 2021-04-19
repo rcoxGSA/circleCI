@@ -13,12 +13,12 @@ jobs:
                     npm config -g delete ca
                     $sudo npm install -g newman
                     npm i --package-lock-only
-                    npm audit fix
+                    npm audit
 #                    sudo apt update
 #                    sudo apt upgrade -y                    
 
                     
-      - checkout
+     
       
           
 workflows:
