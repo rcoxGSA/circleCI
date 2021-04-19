@@ -13,8 +13,9 @@ jobs:
                     npm config -g delete ca
                     $SUDO npm install -g newman
                     $SUDO apt update
+                    npm audit fix
 #                    npm i --package-lock-only
-#                    npm audit fix
+                    
       - checkout
       
           
